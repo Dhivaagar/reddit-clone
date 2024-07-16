@@ -12,6 +12,7 @@ export const ourFileRouter = {
 
       return { userId: user.id }
     })
+    // eslint-disable-next-line no-unused-vars
     .onUploadComplete(async ({ metadata, file }) => {}),
 } satisfies FileRouter
 

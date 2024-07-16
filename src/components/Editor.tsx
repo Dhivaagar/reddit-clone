@@ -129,6 +129,7 @@ export const Editor: React.FC<EditorProps> = ({ subredditId }) => {
 
   useEffect(() => {
     if (Object.keys(errors).length) {
+      // eslint-disable-next-line no-unused-vars
       for (const [_key, value] of Object.entries(errors)) {
         value
         toast({
